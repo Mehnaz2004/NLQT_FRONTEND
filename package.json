@@ -1,0 +1,26 @@
+{
+  "name": "nlqt-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@dotlottie/react-player": "^1.6.19",
+    "lucide-react": "^0.395.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@rolldown/binding-win32-x64-msvc": "^1.0.3",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^6.0.2",
+    "typescript": "^5.7.3",
+    "vite": "^8.0.16"
+  }
+}

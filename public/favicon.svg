@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Outer glowing background circle -->
+  <circle cx="16" cy="16" r="15" fill="#070a13" stroke="#00f0ff" stroke-width="1.5" />
+  
+  <!-- Robot Head Antenna -->
+  <rect x="15" y="4" width="2" height="4" rx="1" fill="#ff9f00" />
+  <circle cx="16" cy="3" r="1.5" fill="#00f0ff" />
+  
+  <!-- Robot Side Ear Caps (Secondary Neon Accent) -->
+  <rect x="5" y="13" width="2" height="6" rx="1" fill="#bd00ff" />
+  <rect x="25" y="13" width="2" height="6" rx="1" fill="#bd00ff" />
+  
+  <!-- Robot Face Chassis -->
+  <rect x="7" y="9" width="18" height="14" rx="4" fill="#ff9f00" />
+  
+  <!-- Dark screen visor -->
+  <rect x="9" y="12" width="14" height="8" rx="2" fill="#0e1322" stroke="#bd00ff" stroke-width="0.5" />
+  
+  <!-- Glowing Cyan Visor Eyes -->
+  <circle cx="13" cy="16" r="2" fill="#00f0ff" />
+  <circle cx="19" cy="16" r="2" fill="#00f0ff" />
+  
+  <!-- Small details (Blush) -->
+  <circle cx="10" cy="18" r="0.8" fill="#ef4444" opacity="0.6" />
+  <circle cx="22" cy="18" r="0.8" fill="#ef4444" opacity="0.6" />
+</svg>
