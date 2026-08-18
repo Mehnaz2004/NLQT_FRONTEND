@@ -10,17 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@dotlottie/react-player": "^1.6.19",
-    "lucide-react": "^0.395.0",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7"
-  },
+  "@lottiefiles/dotlottie-react": "^0.19.15",
+  "lucide-react": "^1.32.0",
+  "react": "^19.2.8",
+  "react-dom": "^19.2.8"
+},
   "devDependencies": {
-    "@rolldown/binding-win32-x64-msvc": "^1.0.3",
-    "@types/react": "^19.0.8",
-    "@types/react-dom": "^19.0.3",
-    "@vitejs/plugin-react": "^6.0.2",
+    "@rolldown/binding-win32-x64-msvc": "^1.2.4",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^6.0.5",
     "typescript": "^5.7.3",
-    "vite": "^8.0.16"
+    "vite": "^8.2.1"
   }
 }

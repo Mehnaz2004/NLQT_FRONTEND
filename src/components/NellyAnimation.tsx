@@ -1,5 +1,5 @@
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import React from 'react';
-import { DotLottiePlayer } from '@dotlottie/react-player';
 
 interface NellyAnimationProps {
   className?: string;
@@ -37,7 +37,7 @@ export const NellyAnimation: React.FC<NellyAnimationProps> = ({
           animation: 'pulse 4s infinite ease-in-out',
         }}
       />
-      
+
       {/* Front Holographic Pedestal / Ring */}
       <div
         style={{
@@ -54,6 +54,7 @@ export const NellyAnimation: React.FC<NellyAnimationProps> = ({
           animation: 'rotateRing 12s linear infinite',
         }}
       />
+
       <div
         style={{
           position: 'absolute',
@@ -72,7 +73,7 @@ export const NellyAnimation: React.FC<NellyAnimationProps> = ({
 
       {/* Lottie Player */}
       <div style={{ zIndex: 2, width: '100%', height: '100%' }}>
-        <DotLottiePlayer
+        <DotLottieReact
           src="/nelly.lottie"
           autoplay
           loop
